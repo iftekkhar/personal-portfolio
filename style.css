@@ -45,6 +45,7 @@ h5 {
     justify-content: space-evenly;
 }
 
+/* Intro-About Section Styles*/
 .about{
     height:100vh;
     background-image: url('img/header-bg.png');
@@ -70,6 +71,7 @@ h5 {
     width: 100%;
 }
 
+/* Biography Section Styles*/
 .biography{
     height:100vh;
     background-image: url('img/biography-bg.png');
@@ -81,6 +83,8 @@ h5 {
 .biography-image img, .work-img img{
     width: 100%; 
 }
+
+/* Portfolio Section Styles*/
 
 .portfolio{
     background-image: url('img/latest-work-bg.png');
@@ -97,6 +101,8 @@ h5 {
 .work-img{
     width:25%;
 }
+
+/*Experience Section Styles*/
 .experience{
     background-color: #f8f9fc;
 }
@@ -117,6 +123,7 @@ h5 {
     box-shadow: 10px 10px 20px grey;
 }
 
+/*Testimonial & Contact Section Styles*/
 .testimonial-contact {
     text-align: center;
     background-image: url('img/footer-bg.png');
@@ -155,6 +162,8 @@ h5 {
     font-weight: 600;
     text-decoration: none;
 }
+
+/*Footer Styles*/
 footer {
     background: #f6f8fd57;
     padding: 20px 0 20px 0;
