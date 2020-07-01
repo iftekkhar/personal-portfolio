@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 46px;
+    font-weight: 600;
+}
+h3 {
+    font-size: 36px;
+    font-weight: 400;
+}
+h4 {
+    font-size: 30px;
+    font-weight: 300;
+}
+h5 {
+    font-size: 24px;
+    font-weight: 300;
+}
+.button-link{
+    padding: 10px 25px;
+    background-image: linear-gradient(45deg,#ec5093, #ed4b70);
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size:24px;
+    text-decoration: none;
+}
+.flex-display{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about{
+    height:100vh;
+    background-image: url('img/header-bg.png');
+    background-repeat: no-repeat;
+}
+.intro, .biography-image,.frontend-exp{
+    width: 35%;
+    padding-left: 10%;
+}
+.intro h1{
+    color:#ec4c7a;
+    margin-bottom: 25px;
+}
+.intro p, .biography-text p, .experience p{
+    color:#707070;
+    margin-bottom: 20px;
+}
+.intro-image, .biography-text, .backend-exp{
+    width: 35%;
+    padding-right: 10%;
+}
+.about img{
+    width: 100%;
+}
+
+.biography{
+    height:100vh;
+    background-image: url('img/biography-bg.png');
+}
+.biography h2,.frontend-exp h3,.backend-exp h3{
+    margin-bottom: 40px;
+
+}
+.biography-image img, .work-img img{
+    width: 100%; 
+}
+
+.portfolio{
+    background-image: url('img/latest-work-bg.png');
+    padding-bottom: 100px;
+}
+.portfolio h2, .testimonial-contact h2, .experience h2{
+    padding: 100px 0 50px 0;
+    text-align: center;
+}
+.latest-works{
+    padding-left: 10%; 
+    padding-right: 10%; 
+}
+.work-img{
+    width:25%;
+}
+.experience{
+    background-color: #f8f9fc;
+}
+.experience-details{
+
+    background-image: url('img/exp-bg.png');
+    padding-bottom: 200px; 
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.frontend-exp, .backend-exp {
+    padding: 30px 60px;
+    background: #fff;
+    border-left: 10px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(45deg, #ff9f33, #ed4b71);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 20px grey;
+}
+
+.testimonial-contact {
+    text-align: center;
+    background-image: url('img/footer-bg.png');
+    padding-bottom: 200px;
+}
+
+.testimonial-contact h4 {
+    font-weight: 600;
+}
+.testimonial-contact h5 {
+    font-weight: 300;
+    color:#707070;
+    margin-bottom: 50px;
+}
+.testimonial-contact p {
+    color:#333;
+}
+.clients{
+    margin: 0 0 100px 0;
+}
+.contact {
+    padding: 50px 200px 80px 200px;
+    background-image: linear-gradient(45deg,#ec5196, #ed4b72);
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.contact p{
+    color:#fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.contact a{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+footer {
+    background: #f6f8fd57;
+    padding: 20px 0 20px 0;
+}
+footer p{
+    text-align: center;
+    font-weight: 400;
+    color:#707070;
+}
